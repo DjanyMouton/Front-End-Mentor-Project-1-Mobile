@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#main-section{
+    width: 345px;
+    height: 600px;
+    border-radius: 10px;
+}
+#image{
+    height: 240px;
+    background-image: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+}
